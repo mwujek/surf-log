@@ -1,0 +1,1 @@
+$(document).ready(function(){$("form").submit(function(o){var l=$(".date").val(),n=$(".location").val(),e=$(".hours").val(),a=$(".description").val();console.log(l),console.log(n),console.log(e),console.log(a),o.preventDefault()}),$.getScript("js/data.js",function(){console.log("loaded nigs"),console.log(data)})});

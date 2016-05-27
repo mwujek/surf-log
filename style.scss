@@ -1,0 +1,62 @@
+@import url(https://fonts.googleapis.com/css?family=Karla:400,700);
+
+body {
+  font-family: "karla", sans-serif;
+  font-weight: 400;
+  color: #333;
+  background: #fff;
+  margin:0px;
+  padding:0px;
+  overflow-x:hidden;
+
+}
+
+body,
+html {
+  height: 100%;
+  text-rendering: optimizeLegibility;
+  font-feature-settings: "kern";
+  -webkit-font-feature-settings: "kern";
+  -moz-font-feature-settings: "kern";
+  -moz-font-feature-settings: "kern=1";
+  font-kerning: normal;
+  -webkit-font-kerning: normal;
+  -moz-font-kerning: normal;
+}
+
+::-moz-selection { background:#fc0; }
+::selection { background: #fc0; }
+
+.row { width: 100%; display: table; table-layout: fixed; }
+.col { display: table-cell; }
+
+img{
+  display: block;
+  margin: 0 auto;
+}
+h1{
+  text-align: center;
+  font-weight: 200;
+  -webkit-font-smoothing: antialiased;
+}
+.container{
+  max-width: 800px;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+.form-group{
+  display: block;
+}
+label{
+  width: 100px;
+  display: inline-block;
+}
+
+.submit-btn{
+  margin-top: 20px;
+}
+textarea{
+  width: 70%;
+  padding: 0;
+}
+
